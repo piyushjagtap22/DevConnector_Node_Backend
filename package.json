@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Social Network",
   "main": "server.js",
-  "scripts": {
-    "start": "node server",
-    "server": "node server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  },
+  // "scripts": {
+  //   "start": "node server",
+  //   "server": "node server",
+  //   "client": "npm start --prefix client",
+  //   "dev": "concurrently \"npm run server\" \"npm run client\""
+  // },
   "author": "Piyush Jagtap",
   "license": "ISC",
   "dependencies": {
