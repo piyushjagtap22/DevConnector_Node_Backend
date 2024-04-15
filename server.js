@@ -1,5 +1,7 @@
 const express = require('express');
 // import express from 'express'
+
+const cors = require('cors');
 const connectDB = require('./config/db');
 const path = require('path');
 
@@ -11,6 +13,7 @@ connectDB();
 // Init Middleware
 app.use(express.json());
 
+app.use(cors()); // Enable CORS for all routes
 // Define Routes
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
@@ -29,5 +32,6 @@ if (process.env.NODE_ENV === 'production') {
 
 const PORT = process.env.PORT || 5000;
 
-const server = app.listen(0, () => console.log(`Server started on port :`,server.address().port));
+const server = app.listen(0, () => console.log(`Server started on port :`, server.address().port));
+// const server = app.listen(0, () => console.log(`Server started on port :`, 3001));
 // app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

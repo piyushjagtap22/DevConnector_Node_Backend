@@ -1,6 +1,8 @@
 {
-    "mongoURI": "mongodb+srv://piyush:Pj1234%23%40@mern-u-1-devconnector.x23xzio.mongodb.net/?retryWrites=true&w=majority",
+    "mongoURI": "mongodb+srv://hastinapur6432:5fcK1Q0pia2Q8iPb@devconnectordb.mqiaraz.mongodb.net/?retryWrites=true&w=majority&appName=devconnectorDB",
     "jwtSecret" : "MySecret",
     "githubClientId" : "Iv1.597ab647e35f5130",
     "githubSecret" : "601c4a4fa6dff293dd8074ec824924a58b13c23e"
 }
+
+

@@ -20,3 +20,6 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
+// hastinapur6432:
+// 5fcK1Q0pia2Q8iPb
